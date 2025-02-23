@@ -1,0 +1,36 @@
+.im{
+    display: block;
+    margin: 0 auto;
+}
+.L{
+    text-align: center;
+}
+.b{
+    text-align: center;
+}
+.i{
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    text-align: center;
+}
+.a1{
+    margin: 0px;
+    padding: 0px;
+}
+.a2{
+    margin: 0px;
+    padding: 0px;
+}
+.b1{
+    margin: 0px;
+    padding: 0px;
+}
+.b2{
+    margin: 0px;
+    padding: 0px;
+}
+.f{
+    text-align: center;
+}

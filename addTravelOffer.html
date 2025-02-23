@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <title>back office</title>
+</head>
+<body>
+    <form action="">
+        <h1 class="f1">Add A Travel Offer</h1>
+        <br>
+        <label for="text">title:</label>
+        <input type="text" name="t" id="t" placeholder="saisir un titre">
+        <br>
+        <label for="text">destination:</label>
+        <input type="text" name="des" id="des" placeholder="saisir une destination">
+        <br>
+        <label for="text">departure date:</label>
+        <input type="date" name="d1" id="d1">
+        <br>
+        <label for="text">return date:</label>
+        <input type="date" name="d2" id="d2">
+        <br>
+        <label for="number">price</label>
+        <input type="number" name="pr" id="pr" placeholder="saisir un nombre">
+        <br>
+        <label for="check">availability:</label>
+        <input type="checkbox" name="av" id="av">
+        <br>
+        <label for="choices">category:</label>
+        <select name="cat" id="cat" multiple size="5">
+            <option value="0">select a category</option>
+            <option value="1">Family trip</option>
+            <option value="2">Couple trip</option>
+            <option value="3">Adventure trip</option>
+            <option value="4">Sport trip</option>
+        </select>
+        <br>
+        <button type="submit">Add Offer</button>
+   </form>
+   <script src="js.js"></script>
+</body>
+</html>
